@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Getting connection with API and extracting Data to View using AngularJS</title>
+
+    <link href="/scripts/style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="scripts/grabbgto.js"></script>
+</head>
+<body ng-app="quote" ng-controller="Hello">
+    <p>
+        <span id="naslov">Quote from Game of Thrones TV Show:</span>
+        </br><i>{{quotes.quote}}</i>
+    </p>
+    <p>By the Game of Thrones Character:<span id="naslov">{{quotes.character}}</span></p>
+</body>
+</html>
